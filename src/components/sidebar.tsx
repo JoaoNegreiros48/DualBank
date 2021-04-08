@@ -9,6 +9,7 @@ import creditCard from '../assets/creditCard.svg'
 import recibos from '../assets/recibos.svg'
 import wrench from '../assets/wrench.svg'
 import question from '../assets/question.svg'
+import btn from '../assets/btnSideBar.svg'
 
 
 export function SideBar(){
@@ -24,6 +25,8 @@ export function SideBar(){
             <button><img src={recibos} alt=""/></button>
             <button><img src={wrench} alt=""/></button>
             <button><img src={question} alt=""/></button>
+
+            <button className={styles.btn}><img src={btn} alt=""/></button>
         </div>
     );
 }
