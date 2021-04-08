@@ -104,8 +104,8 @@
 
     align-items: center;
 
-    position: relative;
-    left: 300px;
+    position: absolute;
+    right: 15px;
 }
 
 form{
