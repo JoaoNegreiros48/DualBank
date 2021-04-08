@@ -28,10 +28,10 @@ export function TopMenu(){
                 </div>
                 <div className={styles.info}>
                     <div className={styles.top}>
-                        <h3 className={styles.title}>Principal</h3>
+                        <h3 className={styles.title}>Aluguel</h3>
                         <img src={view} alt=""/>
                     </div>
-                    <h3 className={styles.valor}>R$15.000,00</h3>
+                    <h3 className={styles.valor}>R$1.600,00</h3>
                 </div>
             </div>
 
@@ -41,10 +41,10 @@ export function TopMenu(){
                 </div>
                 <div className={styles.info}>
                     <div className={styles.top}>
-                        <h3 className={styles.title}>Principal</h3>
+                        <h3 className={styles.title}>Alimentação</h3>
                         <img src={view} alt=""/>
                     </div>
-                    <h3 className={styles.valor}>R$15.000,00</h3>
+                    <h3 className={styles.valor}>R$600,00</h3>
                 </div>
             </div>
         </div>
