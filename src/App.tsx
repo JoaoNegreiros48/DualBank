@@ -1,4 +1,5 @@
 import React from 'react';
+import { Main } from './components/main';
 import { Navbar } from './components/navbar';
 import { SideBar } from './components/sidebar';
 import { TopMenu } from './components/topMenu';
@@ -10,7 +11,10 @@ function App() {
       <Navbar/>
       <div className="menus">
         <SideBar/>
-        <TopMenu/>
+        <div className="main">
+          <TopMenu/>
+          <Main/>
+        </div>
       </div>
     </div>
   );

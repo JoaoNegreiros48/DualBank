@@ -22,3 +22,8 @@ button{
     display: flex;
     flex-direction: row;
 }
+
+.main{
+    display: flex;
+    flex-direction: column;
+}

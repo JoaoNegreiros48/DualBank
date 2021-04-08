@@ -1,0 +1,141 @@
+.container{
+    width: 600px;
+    height: 300px;
+
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.top{
+    font-family: 'Raleway', sans-serif;
+    color: #172765;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top button{
+    width: 80px;
+    height: 40px;
+
+    border: 1px solid #622EE5;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    margin-left: 15px;
+}
+
+.data{
+    height: 47px;
+    width: 280px;
+
+    background: #F9F9F9;
+
+    border: 0.5px solid #E5E4E2;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0px 0px;
+
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+
+    font-family: 'Inter', sans-serif;
+
+    align-items: center;
+}
+
+.data .title{
+    font-size: 12px;
+    color: #622EE5;
+    margin-left: 15px;
+}
+
+.data .dados{
+    font-size: 16px;
+    color: #172765;
+    margin-left: 15px;
+    margin-top: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.data img{
+    margin-left: 150px;
+}
+
+.line{
+    background: #622EE5;
+
+    width: 280px;
+    height: 1px;
+}
+
+.line2{
+    background: #778899;
+
+    width: 280px;
+    height: 1px;
+}
+.ultimaAtualizacao{
+    display: flex;
+    flex-direction: row;
+
+    color: #172765;
+    font-family: Lato;
+    font-size: 14px;
+
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.ultimaAtualizacao img{
+    margin-left: 15px;
+}
+
+.saldoDisponivel{
+    height: 47px;
+    width: 280px;
+
+    background: #F9F9F9;
+
+    border: 0.5px solid #E5E4E2;
+    box-sizing: border-box;
+    border-radius: 5px 5px 0px 0px;
+
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+
+    font-family: 'Inter', sans-serif;
+
+    align-items: center;
+}
+
+.check{
+    margin-left: 15px;
+}
+
+.saldoDisponivel > div{
+    font-family: Lato;
+    font-size: 12px;
+
+    margin-left: 15px;
+}
+
+.saldoDisponivel .title{
+    color: #778899;
+}
+
+.saldoDisponivel .dados{
+    color: #69D531;
+    font-size: 16px;
+}
+
+.saldoDisponivel .view{
+    margin-left: 105px;
+}

@@ -21,15 +21,15 @@ export function Navbar(){
                 <div className={styles.top}>
                     <h2>Conta Corrente</h2>
                     <img src={seta} alt=""/>
-                    <h3 className={styles.saldo}>Saldo</h3>
+                    <p className={styles.saldo}>Saldo</p>
                     <img src={view} alt=""/>
                 </div>
 
                 <div className={styles.bottom}>
-                    <h3>Ag. 00005-1</h3>
-                    <h3 className={styles.CC}>C.C. 00000000000000000020-1</h3>
+                    <p>Ag. 00005-1</p>
+                    <p className={styles.CC}>C.C. 00000000000000000020-1</p>
                     <img src={copy} alt=""/>
-                    <h3 className={styles.saldoValor}>R$40.000,00</h3>
+                    <p className={styles.saldoValor}>R$40.000,00</p>
                 </div>
             </div>
 
