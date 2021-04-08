@@ -17,3 +17,8 @@ body{
 button{
     cursor: pointer;
 }
+
+.menus{
+    display: flex;
+    flex-direction: row;
+}
